@@ -1,0 +1,92 @@
+.flexbox-container{
+  display:flex;
+height: 200px;
+  background-color: aliceblue;
+  border: 1px dashed black;
+  justify-content: center;
+  border-radius: 20px;
+  margin:20px
+}
+
+.header{
+  height: 50px;
+}
+
+.fileInput{
+  border:1px solid black;
+  border-radius:5px;
+}
+
+.flexbox-item-outer {
+  justify-content: center;
+  width: 100%;
+    border: 2px dashed lightgreen;
+    border-radius: 25px;
+    margin: 10px;
+  }
+
+
+  .flex { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.upload{
+  border:1px dashed black;
+  border-radius:5px;
+  margin:20px
+}
+
+.heading1{
+  display: block;
+  background-color: aliceblue;
+}
+
+.btn-padding{
+  margin:5px;
+}
+
+.progress{
+  background-color: aliceblue;
+  min-height: 40px;
+}
+
+.progress-bar{
+  margin:2px;
+}
+
+.fetching{
+  font-size: 20px;
+}
+
+.margin1{
+  margin:20px;
+}
+
+.Navlist{
+  display: block;
+  border:1px solid black;
+  min-height: 50px;
+}
+#mobile-header {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAA5CAIAAAC9LEyPAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADxJREFUeNrs0cEJACAMA8Aq7r9qRqhD9CHIZYBALitJzbJrnG8qTnezwImTBQtDWLBgwQInTo+8rbgCDAAa8CczxXkqbAAAAABJRU5ErkJggg==) repeat-x top;
+  height: 57px;
+  margin: 0;
+  width: 100%;
+}
+
+#mobile-header .mobileBar {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#mobile-header .mobileBar li {
+  float: left;
+  width: 20%;
+  text-align: center;
+  margin: 0;
+}
